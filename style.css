@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Switzer-Regular;
+    src: url('assets/fonts/Switzer_Complete/Fonts/OTF/Switzer-Regular.otf');
+}
+
+@font-face {
+    font-family: Switzer-Light;
+    src: url('assets/fonts/Switzer_Complete/Fonts/OTF/Switzer-Light.otf');
+}
+
+@font-face {
+    font-family: Switzer-Medium;
+    src: url('assets/fonts/Switzer_Complete/Fonts/OTF/Switzer-Medium.otf');
+}
+
+@font-face {
+    font-family: Switzer-Bold;
+    src: url('assets/fonts/Switzer_Complete/Fonts/OTF/Switzer-Bold.otf');
+}
+
+.fontMedium {
+    font-family: Switzer-Medium;
+    color: #1D1D1D;
+}
+
+.fontRegular {
+    font-family: Switzer-Regular;
+    color: #1D1D1D;
+}
+
+.fontLight {
+    font-family: Switzer-Light;
+    color: #1D1D1D;
+}
+
+.fontBold {
+    font-family: Switzer-Bold;
+    color: #101010;
+}
+
+.fontBig {
+    font-size: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fontSmall {
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    background-image: url(assets/img/backgroundImage.png);
+    margin-top: 0px;
+}
+
+#mainContent {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+#nav {
+    width: 100%;
+    height: 10%;
+    padding-top: 20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#hr1 {
+    width: 90%;
+    float: left;
+    clear: right;
+    border: 3px solid #1D1D1D;
+    border-radius: 3px;
+}
+
+#hr2 {
+    width: 12%;
+    float: left;
+    clear: right;
+    border: 1px solid #1D1D1D;
+    border-radius: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#helloWorld {
+    margin-bottom: -20px;
+}
