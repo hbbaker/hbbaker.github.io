@@ -92,7 +92,7 @@ body {
     width: 90%;
     float: left;
     clear: right;
-    border: 3px solid #1D1D1D;
+    border: 2px solid #1D1D1D;
     border-radius: 3px;
 }
 
@@ -113,7 +113,19 @@ body {
 #arrowIcon {
     position: relative;
     width: 25px;
-    top: 50%;
+    padding-left: 5px;
 }
 
-#aboutButton {}
+#aboutButton {
+    align-items: center;
+    display: flex;
+}
+
+#ballplayerImg {
+    width: 800px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    top: 10px
+}
